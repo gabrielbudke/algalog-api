@@ -1,0 +1,12 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - name: docker-mysql
+    init: >
+      docker run 
+      --name mysql 
+      -e MYSQL_ROOT_PASSWORD=admin
+      -e MYSQL_USER=gabrielbsousa
+      -e MYSQL_PASSWORD=g@bri3l
+      -e MYSQL_DATABASE=algalog
+      -p 3306:3306
+      -d mysql
