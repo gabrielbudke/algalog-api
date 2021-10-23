@@ -1,6 +1,5 @@
 package com.algaworks.algalog.api.controller;
 
-import java.util.Arrays;
 import java.util.List;
 
 import javax.persistence.EntityManager;
