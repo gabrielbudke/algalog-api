@@ -1,0 +1,1 @@
+INSERT INTO cliente (nome, email, telefone) VALUES ('João Pedro', 'joao.pedro@algalog.com', '(47) 98888-3333');
